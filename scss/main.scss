@@ -23,6 +23,11 @@ $Heading-font : 'Playfair Display';
 
 body {
     background-color: #222;
+    max-width: 1094px;
+    @media screen and (max-width:1200px){
+        background-color: #00BC8C;
+    }
+
 
     nav {
         scroll-snap-align: start;
