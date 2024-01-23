@@ -9,6 +9,11 @@ data.addEventListener("click",onclick);
 
 function onclick(){
 
+    if(denom>0 && num >0){
+        num  = 0;
+        denom = 0;
+    }
+
     for(let i=0;i<grades.length;i++){
         if((grades[i].value) != "" || credits[i].value != ""){
             num += (Number(grades[i].value))*(Number(credits[i].value));
@@ -16,11 +21,13 @@ function onclick(){
         }
     }
 
-    
-    const result = (num/denom);
+    var result = (num/denom);
     const fresult = result.toFixed(2);
     tc.innerHTML = denom;
     gr.innerHTML = fresult;
+
+    result = 0;
+
 
 }
 
