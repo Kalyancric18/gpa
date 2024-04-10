@@ -270,6 +270,8 @@ footer{
         color: white;
     }
     @media  screen and (min-width:400px) {
-        font-size:14px;
+        p{
+            font-size:14px;
+        }
     }
 }

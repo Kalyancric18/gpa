@@ -244,7 +244,7 @@ footer p {
   color: white;
 }
 @media screen and (min-width: 400px) {
-  footer {
+  footer p {
     font-size: 14px;
   }
 }
