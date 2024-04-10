@@ -243,5 +243,10 @@ footer p {
   font-weight: 700;
   color: white;
 }
+@media screen and (max-width: 400px) {
+  footer {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=main2.css.map */
