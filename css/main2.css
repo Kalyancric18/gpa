@@ -231,4 +231,17 @@ main .sec2 .cgpa-calc-container .main-links button a {
   }
 }
 
+footer {
+  margin-top: 5px;
+  border-top: 1px solid white;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-weight: 700;
+  color: white;
+}
+
 /*# sourceMappingURL=main2.css.map */

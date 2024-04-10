@@ -252,6 +252,22 @@ main{
         @media  screen and (min-width:1200px) {
             scroll-snap-align: start;
         }
+
     }
 
+
+}
+
+footer{
+    margin-top: 5px;
+    border-top: 1px solid white;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{    
+        
+        font-weight: 700;
+        color: white;
+    }
 }
