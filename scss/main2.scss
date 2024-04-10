@@ -269,7 +269,7 @@ footer{
         font-weight: 700;
         color: white;
     }
-    @media  screen and (max-width:400px) {
+    @media  screen and (min-width:400px) {
         font-size:14px;
     }
 }
