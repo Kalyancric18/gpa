@@ -103,11 +103,22 @@ main{
                 text-decoration: none;
                 color: white;
                 font-size: 25px;
+                @media screen and (max-width:576px){
+                    font-size: 18px !important;
+                }
+            }
+            @media screen and (max-width:576px){
+                height: 36px !important;
+                padding: 0 20px !important;
+                
             }
         }
 
         .ins2{
             background-color: #b9cd60 !important;
+            @media screen and (max-width:576px){
+                font-size: 18px !important;
+            }
         }
     }
 

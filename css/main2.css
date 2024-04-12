@@ -104,8 +104,24 @@ main .main-links button a {
   color: white;
   font-size: 25px;
 }
+@media screen and (max-width: 576px) {
+  main .main-links button a {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .main-links button {
+    height: 36px !important;
+    padding: 0 20px !important;
+  }
+}
 main .main-links .ins2 {
   background-color: #b9cd60 !important;
+}
+@media screen and (max-width: 576px) {
+  main .main-links .ins2 {
+    font-size: 18px !important;
+  }
 }
 main .sec2 {
   margin-top: 45px;
