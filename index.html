@@ -23,19 +23,15 @@
 
 <body>
 
-    <nav>
+    <nav id="nav">
         <div class="nav-container">
             <div class="nav-title">GPA CALCULATOR</div>
-            <!-- <div class="nav-links">
-                <a href="">CGPA</a>
-                <a href="">SGPA</a>
-            </div> -->
         </div>
     </nav>
 
     <main>
 
-        <section class="sec1">
+        <section class="sec1" id="secy">
 
             <div class="intro">
                 <p>
@@ -45,24 +41,30 @@
                 </p>
 
                 <p>
-                    SGPA (Semester Grade Point Average) is a measure of your academic performance in a single semester,
-                    whereas
-                    CGPA (Cumulative Grade Point Average) reflects your overall academic performance throughout your
-                    academic
-                    career.
+                    SGPA (Semester Grade Point Average) is a measure of your academic performance in a single semester, whereas
+                    CGPA (Cumulative Grade Point Average) reflects your overall academic performance throughout your academic career.
                 </p>
 
-                <p>
-                    With my user-friendly interface, you can easily input your grades and credit hours for each
-                    semester, and let my calculator do the rest. My tool will provide you with accurate calculations for both your
-                    SGPA and CGPA, allowing you to monitor your academic progress and make informed decisions about your future.
-                </p>
+                <div class="ins" id="instruc"> 
+
+                    <div>
+                        <p><strong>For SGPA CALCULATION</strong></p>
+                        <p>Enter each subject grade on the left side and enter the corresponding subject credit on the right side.</p>
+                    </div>
+
+                    <div>
+                        <p><strong>For CGPA CALCULATION</strong></p>
+                        <p>Enter each semester SGPA on the left side and enter the corresponding smester Total credits on right side.</p>
+                    </div>
+
+                </div>
 
                 <p>
-                    This GPA calculator is an essential tool for everyone who values academic excellence. So why wait? Start calculating your GPA today and take the first step
-                    towards achieving your academic goals! All the best
+                    <!-- This GPA calculator is an essential tool for everyone who values academic excellence. So why wait? Start calculating your GPA today and take the first step
+                    towards achieving your academic goals! -->
                 </p>
-                <p>This website wont Crash </p>
+                <p>Click CALCULATE to start calcuating..... All the best with your result</p>
+                <p class="funny">This website wont crash so dont worry 😌😉</p>
             </div>
 
             <div class="main-links">
@@ -144,8 +146,11 @@
                     </div>
                 </div>
                 <div class="main-links">
-                    <button>
+                    <button class="ins1">
                         <a id="submit">SUBMIT</a>
+                    </button>
+                    <button class="ins2">
+                        <a href="#nav">How to Calulate</a>
                     </button>
                 </div>
                 

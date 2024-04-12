@@ -34,7 +34,7 @@ nav {
     }
     @media screen and (min-width:1200px) {
         scroll-snap-align: start;
-        height: 100px;
+        height: 80px;
         background-color: #222;
     }
 }
@@ -45,7 +45,7 @@ main{
     margin-inline: auto;
     
     .sec1{
-        margin-top: 20px;
+        margin-top: 10px;
         .intro{
                 text-align: justify;
                 font-family: $Body-font;
@@ -58,6 +58,25 @@ main{
                 }
                 @media screen and (min-width:768px){
                     font-size: 24px;
+                }
+
+                .ins{
+                    margin: 10px 0;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    div{
+                        border: 3px solid rgb(195, 59, 59);
+                        padding: 10px;
+                    }
+                    @media screen and (max-width:576px){
+                        flex-direction: column;
+                        font-size: 18px;
+                    }
+                }
+                .funny{
+                    color: red;
+                    font-weight: 700;
                 }
         }
         @media  screen and (min-width:1200px) {
@@ -85,6 +104,10 @@ main{
                 color: white;
                 font-size: 25px;
             }
+        }
+
+        .ins2{
+            background-color: #b9cd60 !important;
         }
     }
 
