@@ -295,13 +295,38 @@ main{
 footer{
     margin-top: 5px;
     border-top: 1px solid white;
-    height: 65px;
+    // height: 65px;/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     p{    
         font-weight: 700;
         color: white;
+    }
+    .social-links {
+        // margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social-icon {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        transition: color 0.3s ease;
+    }
+    
+    .social-icon:hover {
+        color: #1da1f2; /* A bright blue color for hover */
+    }
+    
+    .social-icon i {
+        vertical-align: middle;
     }
     @media  screen and (max-width:400px) {
         p{

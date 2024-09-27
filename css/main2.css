@@ -273,7 +273,10 @@ main .sec2 .cgpa-calc-container .main-links button a {
 footer {
   margin-top: 5px;
   border-top: 1px solid white;
-  height: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,6 +284,23 @@ footer {
 footer p {
   font-weight: 700;
   color: white;
+}
+footer .social-links {
+  align-items: center;
+  justify-content: center;
+}
+footer .social-icon {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+footer .social-icon:hover {
+  color: #1da1f2; /* A bright blue color for hover */
+}
+footer .social-icon i {
+  vertical-align: middle;
 }
 @media screen and (max-width: 400px) {
   footer p {
